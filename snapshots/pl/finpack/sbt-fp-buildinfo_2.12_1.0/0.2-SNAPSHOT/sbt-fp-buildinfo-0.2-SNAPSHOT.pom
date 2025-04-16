@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>pl.finpack</groupId>
+    <artifactId>sbt-fp-buildinfo</artifactId>
+    <packaging>jar</packaging>
+    <description>sbt-fp-buildinfo</description>
+    <version>0.2-SNAPSHOT</version>
+    <name>sbt-fp-buildinfo</name>
+    <organization>
+        <name>pl.finpack</name>
+    </organization>
+    <properties>
+        <scalaVersion>2.12</scalaVersion>
+        <sbtVersion>1.0</sbtVersion>
+        <extraDependencyAttributes xml:space="preserve">+organisation:#@#:+com.eed3si9n:#@#:+branch:#@#:+@#:NULL:#@:#@#:+e:sbtVersion:#@#:+1.0:#@#:+module:#@#:+sbt-buildinfo:#@#:+revision:#@#:+0.13.1:#@#:+e:scalaVersion:#@#:+2.12:#@#:</extraDependencyAttributes>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.20</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>1.10.11</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.eed3si9n</groupId>
+            <artifactId>sbt-buildinfo</artifactId>
+            <version>0.13.1</version>
+        </dependency>
+    </dependencies>
+</project>
